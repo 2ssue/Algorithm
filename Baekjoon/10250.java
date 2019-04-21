@@ -8,6 +8,7 @@ public class Main {
 		
 		for(int i = 0; i < nTestCase; i++) {
 			int nRow = sc.nextInt();
+			int nCol = sc.nextInt();
 			int nFloor = 0;
 			int nWindow = 1;
 			
