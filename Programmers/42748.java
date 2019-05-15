@@ -1,0 +1,24 @@
+import java.util.*;
+
+class Solution {
+    public int[] solution(int[] array, int[][] commands) {
+        int[] answer = new int[commands.length];
+        
+        for(int i = 0; i < commands.length; i++){
+            int start = commands[i][0];
+            int end = commands[i][1];
+            int position = commands[i][2];
+            int[] temp = new int[end - start + 1];
+            int cnt = 0;
+                
+            for(int j = start - 1; j < end; j++){
+                temp[cnt] = array[j];
+                cnt++;
+            }
+            Arrays.sort(temp);
+            answer[i] = temp[position - 1];
+        }
+        
+        return answer;
+    }
+}
