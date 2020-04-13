@@ -1,14 +1,14 @@
 function solution(genres, plays) {
   const summaryGenres = genres.reduce((acc, cur, index) => {
-    if (acc[`${cur}`] === undefined) {
-      acc[`${cur}`] = {
+    if (!acc[cur]) {
+      acc[cur] = {
         totalPlay: 0,
         playList: [],
       };
     }
 
-    acc[`${cur}`].totalPlay += plays[index];
-    acc[`${cur}`].playList.push([index, plays[index]]);
+    acc[cur].totalPlay += plays[index];
+    acc[cur].playList.push([index, plays[index]]);
 
     return acc;
   }, {});
