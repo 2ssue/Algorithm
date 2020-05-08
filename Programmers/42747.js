@@ -5,8 +5,7 @@ function solution(citations) {
   let papers = 0;
 
   for (let hIndex = maxCitation; hIndex >= 0; hIndex--) {
-    if (citations[0] >= hIndex && papers < hIndex) {
-      citations.shift();
+    if (citations[papers] >= hIndex && papers < hIndex) {
       papers += 1;
     }
 
