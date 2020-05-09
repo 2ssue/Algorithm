@@ -13,5 +13,7 @@ module.exports = {
       ['/docs/baekjoon/', 'Baekjoon'],
       ['/docs/programmers/', 'Programmers'],
     ],
+    repo: '2ssue/Algorithm',
+    repoLabel: 'GitHub',
   },
 };
