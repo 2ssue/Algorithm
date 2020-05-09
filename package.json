@@ -1,0 +1,24 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "아래 사이트에서 푼 알고리즘들에 대한 기록들입니다. 모든 알고리즘에 대한 기록이 있지는 않습니다.",
+  "main": "index.js",
+  "scripts": {
+    "build": "vuepress build",
+    "dev": "vuepress dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2ssue/Algorithm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2ssue/Algorithm/issues"
+  },
+  "homepage": "https://github.com/2ssue/Algorithm#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.1"
+  }
+}
