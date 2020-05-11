@@ -1,11 +1,4 @@
 ## 프로그래머스 문제 풀이 기록
 
-- [카펫](./2020-04-19-programmers-42842.md)
-- [숫자 야구](./2020-04-19-programmers-42841.md)
-- [소수 찾기](./2020-04-18-programmers-42839.md)
-- [베스트앨범](./2020-04-13-programmers-42579.md)
-- [다리를 지나는 트럭](./2019-06-11-programmers_42583.md)
-- [위장](./2019-05-21-programmers_42578.md)
-- [탑](./2019-03-02-programmers_42588.md)
-- [프린터](./2019-03-02-programmers_42587.md)
-- [쇠막대기](./2019-02-27-programmers_42585.md)
+<a href="https://programmers.co.kr/">
+<img src="https://programmers.co.kr/assets/bi-programmers-light-0d164d49b51a123bab5cca11106145d6fac5a5ac04b8646780369c2a5bc0dd79.png" style="background-color: black"></a>
