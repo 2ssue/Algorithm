@@ -1,3 +1,5 @@
+const { getFilesOf } = require('./util.js');
+
 module.exports = {
   base: '/Algorithm/',
   assetsPublicPath: '/',
@@ -10,8 +12,16 @@ module.exports = {
     ],
     sidebar: [
       ['/', 'Algorithm'],
-      ['/docs/baekjoon/', 'Baekjoon'],
-      ['/docs/programmers/', 'Programmers'],
+      {
+        title: 'Baekjoon',
+        path: '/docs/baekjoon/',
+        children: getFilesOf('docs/baekjoon'),
+      },
+      {
+        title: 'Programmers',
+        path: '/docs/programmers/',
+        children: getFilesOf('docs/programmers'),
+      },
     ],
     repo: '2ssue/Algorithm',
     repoLabel: 'GitHub',
