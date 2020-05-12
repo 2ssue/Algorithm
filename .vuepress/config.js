@@ -22,6 +22,11 @@ module.exports = {
         path: '/docs/programmers/',
         children: getFilesOf('docs/programmers'),
       },
+      {
+        title: 'Samsung',
+        path: '/docs/samsung/',
+        children: getFilesOf('docs/samsung'),
+      },
     ],
     repo: '2ssue/Algorithm',
     repoLabel: 'GitHub',
