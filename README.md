@@ -6,6 +6,12 @@
 - [프로그래머스](https://programmers.co.kr/)
 - [SW Expert Academy](https://swexpertacademy.com/main/main.do)
 
+## 풀이 보기
+
+- [백준 문제 풀이 기록](/docs/baekjoon)
+- [프로그래머스 문제 풀이 기록](/docs/programmers)
+- [삼성 문제 풀이 기록](/docs/samsung)
+
 ::: warning 참고
 🤫 모든 알고리즘에 대한 풀이가 있진 않습니다.  
 

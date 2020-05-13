@@ -1,3 +1,9 @@
+---
+next: ./1222
+---
+
 ## 삼성 SW Expert Academy 문제 풀이 기록
 
-[사이트 주소](https://swexpertacademy.com/main/main.do)
+사이드바에서 푼 문제들의 목록과 풀이 글을 볼 수 있습니다.
+
+또는 하단의 다음 게시글 버튼을 이용해서 문제들을 넘겨가며 볼 수 있습니다. 😊

@@ -1,3 +1,9 @@
+---
+next: ./1918
+---
+
 ## 백준 문제 풀이 기록
 
-[![BEAKJOON](https://d2gd6pc034wcta.cloudfront.net/images/logo@2x.png)](https://www.acmicpc.net/)
+사이드바에서 푼 문제들의 목록과 풀이 글을 볼 수 있습니다.
+
+또는 하단의 다음 게시글 버튼을 이용해서 문제들을 넘겨가며 볼 수 있습니다. 😊
