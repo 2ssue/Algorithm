@@ -5,6 +5,9 @@ module.exports = {
   assetsPublicPath: '/',
   title: "2ssue's dev note",
   plugins: ['@vuepress/last-updated'],
+  markdown: {
+    lineNumbers: true,
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
